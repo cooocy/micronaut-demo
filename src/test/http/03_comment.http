@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/comment/list-by-article-id?articleId=1275997973083324419
+
+###
+POST http://localhost:8080/comment
+Content-Type: application/json
+
+{
+  "articleId": "1275997973083324419",
+  "nickname": "Acida",
+  "email": "acidia@xxx.com",
+  "body": "哇！"
+}
